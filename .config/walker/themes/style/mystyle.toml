@@ -1,0 +1,77 @@
+[ui.anchors]
+left = true 
+bottom = true
+right = true
+top = true
+
+[ui.window]
+h_align = "fill"
+v_align = "fill"
+width = 550
+height = 400
+
+[ui.window.box]
+h_align = "center"
+v_align = "center"
+width = 380
+
+[ui.window.box.bar]
+orientation = "vertical"
+position = "left"
+pixel_size = 24
+
+[ui.window.box.bar.entry]
+h_align = "fill"
+h_expand = true
+
+[ui.window.box.bar.entry.icon]
+h_align = "center"
+h_expand = true 
+pixel_size = 24
+theme = ""
+
+[ui.window.box.scroll.list]
+marker_color = "#1BFFE1"
+max_height = 300
+max_width = 400
+min_width = 400
+width = 400
+
+[ui.window.box.scroll.list.item.activation_label]
+h_align = "center"
+v_align = "center"
+width = 20
+x_align = 0.5
+y_align = 0.5
+
+[ui.window.box.scroll.list.item.icon]
+pixel_size = 26
+theme = ""
+
+[ui.window.box.scroll.list.margins]
+top = 8
+
+[ui.window.box.search.prompt]
+name = "prompt"
+icon = "/home/kexick/.config/walker/icons/arrow.svg"
+theme = ""
+pixel_size = 18
+h_align = "center"
+v_align = "center"
+
+[ui.window.box.search.clear]
+name = "clear"
+icon = ""
+theme = ""
+pixel_size = 18
+h_align = "center"
+v_align = "center"
+
+[ui.window.box.search.input]
+h_align = "fill"
+v_align = "center"
+h_expand = true
+icons = true
+
+[ui.window.box.search.spinner]
+hide = false

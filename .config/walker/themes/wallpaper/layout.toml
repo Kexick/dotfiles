@@ -1,0 +1,58 @@
+[ui.anchors]
+left = true 
+bottom = true
+right = true
+top = true
+
+[ui.window]
+h_align = "fill"
+v_align = "fill"
+
+[ui.window.box]
+
+[ui.window.box.search]
+h_align = "center"
+width = 1500
+
+[ui.window.box.search.margins]
+top = 200
+start = 600
+
+[ui.window.box.search.anchors]
+top = true
+
+[ui.window.box.scroll]
+h_align = "start"
+v_align = "start"
+height = 1050
+
+[ui.window.box.scroll.margins]
+top = -220
+
+[ui.window.box.scroll.list]
+orientation = "vertical"
+spacing = 0
+h_align = "center"
+v_align = "center"
+# height = 300
+
+[ui.window.box.scroll.list.margins]
+
+[ui.window.box.scroll.list.item]
+v_align = "fill"
+h_align = "fill"
+max_height = 270
+max_width = 480
+
+[ui.window.box.scroll.list.item.icon]
+v_align = "fill"
+h_align = "fill"
+height = 270
+width = 480
+pixel_size = 450
+
+[ui.window.box.scroll.list.item.text.label]
+hide = true 
+
+[ui.window.box.scroll.list.item.activation_label]
+hide = true 

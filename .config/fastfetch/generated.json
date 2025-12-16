@@ -1,0 +1,17 @@
+{
+  "display": {
+    "separator": " ┃ ",
+    "key": { "paddingLeft": 0 }
+  },
+  "modules": [
+    { "type": "custom", "format": "┎────┰────────────────────────┒" },
+    { "type": "os", "key": " ", "format": " ┃ OS  ┃     {name}     ┃" },
+    { "type": "custom", "format": " ┠────╂────────────────────────┨" },
+    { "type": "kernel", "key": " ┃  ", "format": " {1} {2} ┃" },
+    { "type": "cpu", "key": " ┃  ", "format": " {name} ┃" },
+    { "type": "gpu", "key": " ┃ 󰾲 ", "format": " {name} ┃" },
+    { "type": "memory", "key": " ┃  ", "format": " {total} ┃" },
+    { "type": "custom", "format": " ┃ 󰅐  0d 2h 54m                ┃" },
+    { "type": "custom", "format": " ┖────┸────────────────────────┚" }
+  ]
+}
